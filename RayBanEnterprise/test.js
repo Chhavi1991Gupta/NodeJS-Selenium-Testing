@@ -19,6 +19,6 @@ test.describe('Google Search', function() {
     driver.findElement(By.name('fname')).sendKeys('webdriver');
     driver.findElement(By.name('lname')).sendKeys('webdriver');
     driver.findElement(By.name('submit')).click();
-    driver.wait(until.titleIs('fuck'), 1000);
+    driver.wait(until.titleIs('User Saved'), 1000);
   });
 });
